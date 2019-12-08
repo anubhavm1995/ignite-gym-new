@@ -11,7 +11,7 @@ public class HomeController {
 	
 	@GetMapping(path = "/")
 	public String enter() {
-		return "Hello World - start";
+		return "Hello World - start after GITHUB";
 	}
 	@GetMapping(path = "/test")
 	public String helloWorld() {
