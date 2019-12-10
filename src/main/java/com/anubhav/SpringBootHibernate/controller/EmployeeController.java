@@ -26,6 +26,11 @@ public class EmployeeController {
 		return "Hello world - this is main";	
 	}
 	
+	@GetMapping(path = "/haha")
+	public String hahaFunc(){
+		return "hahahahah";	
+	}
+	
 	@GetMapping(path = "test")
 	public String showString(){
 		return "Hello world - this is test";	
